@@ -1,0 +1,299 @@
+{
+  "title": "Gestione eventi culturali e iscrizioni",
+  "description": "Prototipo per consultare l’agenda culturale della biblioteca, monitorare le iscrizioni e gestire i posti disponibili. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi in programma, delle iscrizioni e dei posti ancora disponibili.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "8"
+        },
+        {
+          "label": "Iscrizioni totali",
+          "value": "96"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "54"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Ora",
+        "Sala",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Lettura",
+          "12/06/2026",
+          "17:30",
+          "Sala Nubi",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Mappe immaginarie",
+          "Laboratorio",
+          "14/06/2026",
+          "16:00",
+          "Sala Vela",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Suoni di carta",
+          "Incontro",
+          "18/06/2026",
+          "18:00",
+          "Sala Nubi",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Piccole costellazioni",
+          "Laboratorio",
+          "21/06/2026",
+          "10:30",
+          "Sala Lumo",
+          "14",
+          "9",
+          "5"
+        ],
+        [
+          "Storie in cerchio",
+          "Lettura",
+          "23/06/2026",
+          "17:00",
+          "Sala Vela",
+          "18",
+          "18",
+          "0"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "agenda-eventi",
+      "title": "Agenda eventi",
+      "description": "Consulta e filtra il calendario degli eventi culturali e la disponibilità dei posti.",
+      "metrics": [
+        {
+          "label": "Eventi visibili",
+          "value": "8"
+        },
+        {
+          "label": "Posti complessivi",
+          "value": "92"
+        },
+        {
+          "label": "Iscritti",
+          "value": "68"
+        },
+        {
+          "label": "Posti rimasti",
+          "value": "24"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Ora",
+        "Sala",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Lettura",
+          "12/06/2026",
+          "17:30",
+          "Sala Nubi",
+          "24",
+          "18",
+          "6"
+        ],
+        [
+          "Mappe immaginarie",
+          "Laboratorio",
+          "14/06/2026",
+          "16:00",
+          "Sala Vela",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Suoni di carta",
+          "Incontro",
+          "18/06/2026",
+          "18:00",
+          "Sala Nubi",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Piccole costellazioni",
+          "Laboratorio",
+          "21/06/2026",
+          "10:30",
+          "Sala Lumo",
+          "14",
+          "9",
+          "5"
+        ],
+        [
+          "Storie in cerchio",
+          "Lettura",
+          "23/06/2026",
+          "17:00",
+          "Sala Vela",
+          "18",
+          "18",
+          "0"
+        ],
+        [
+          "Segni e colori",
+          "Laboratorio",
+          "26/06/2026",
+          "16:30",
+          "Sala Lumo",
+          "12",
+          "7",
+          "5"
+        ],
+        [
+          "Voci di mezzogiorno",
+          "Incontro",
+          "28/06/2026",
+          "11:00",
+          "Sala Nubi",
+          "22",
+          "15",
+          "7"
+        ],
+        [
+          "La valigia blu",
+          "Lettura",
+          "30/06/2026",
+          "17:30",
+          "Sala Vela",
+          "18",
+          "11",
+          "7"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Ora",
+        "Sala",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Esamina le iscrizioni agli eventi, filtra per evento o stato e registra nuove adesioni con dati essenziali inventati.",
+      "metrics": [
+        {
+          "label": "Iscrizioni registrate",
+          "value": "6"
+        },
+        {
+          "label": "Confermate",
+          "value": "5"
+        },
+        {
+          "label": "In attesa",
+          "value": "1"
+        },
+        {
+          "label": "Posti assegnati",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Nominativo inventato",
+        "Evento",
+        "Data iscrizione",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Neri Lumo",
+          "Racconti di Lumo",
+          "02/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Vela Sori",
+          "Racconti di Lumo",
+          "03/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Tavi Nubi",
+          "Mappe immaginarie",
+          "04/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Mira Leno",
+          "Suoni di carta",
+          "05/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Rivo Dali",
+          "Piccole costellazioni",
+          "06/06/2026",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Sena Vori",
+          "Storie in cerchio",
+          "07/06/2026",
+          "1",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Nominativo inventato",
+        "Evento",
+        "Data iscrizione",
+        "Partecipanti",
+        "Stato"
+      ]
+    }
+  ]
+}
